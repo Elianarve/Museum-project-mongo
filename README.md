@@ -8,7 +8,9 @@ git clone https://github.com/Elianarve/Museum-project-mongo.git
 
 - ## Step 1️⃣ Install dependencies
 Make sure you have Node.js installed. 
-- npm i
+```bash
+npm i
+```
 
 ## Build with: 
 - Javascript
@@ -34,7 +36,9 @@ DB_MONGO_URI_TEST=
 - ## Step 3️⃣ Run the server 🚀🚀
 Write this command on your terminal:
 
-npm run dev 
+```bash
+npm run dev
+```
 
 - ## Step 4️⃣ Try all requests with Postman
 
@@ -53,6 +57,8 @@ Getmethod DELETE http://localhost:5000/api/id
 TESTS👨🏼‍🔬👩🏼‍🔬
 To run the tests write in the terminal:
 
+```bash
 npm run test
+```
 
 Keep in mind that you should have had created your testing database (sculptures_test)
