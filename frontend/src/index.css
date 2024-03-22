@@ -1,0 +1,125 @@
+body {
+    background-color: #F8FAE5;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px;
+}
+
+.circulos {
+    position: absolute;
+    margin-left: 320px;
+    width: 90px;
+}
+
+h3 {
+    font-size: 28px;
+    margin: auto;
+}
+
+.button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;    
+    color: #F8FAE5;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 120px;
+    margin: 2% 0;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px #000000;    
+}
+
+@media only screen and (max-width: 768px) {
+    .button {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h4 {
+        margin: 8% 0 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .circulos {
+        position: absolute;
+        margin-left: 240px;
+        width: 70px;
+    }
+
+    .button {
+        font-size: 12px;
+        min-width: 100px;
+        border-radius: 16px;
+        padding: 8px 12px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 14px;
+
+    }
+}
+
+@media only screen and (max-width : 360px) {
+    .circulos {
+        position: absolute;
+        margin-left: 180px;
+        width: 60px;
+    }
+    
+    .button {
+        font-size: 10px;
+        min-width: 76px;
+        border-radius: 12px;
+        padding: 6px 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 12px;
+
+    }
+}
